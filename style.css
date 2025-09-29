@@ -1,0 +1,168 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header.header {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background: linear-gradient(to right, #1c1c1c, #2c2c2c);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #00ffc8;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 40px 20px;
+}
+
+.form-section {
+  background-color: #222;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(0,255,200,0.2);
+}
+
+.form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #00ffc8;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+form button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #00ffc8;
+  color: #000;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #00d6aa;
+}
+
+footer.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #181818;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.results {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  background-color: #111;
+}
+
+.results h3 {
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  color: #00ffc8;
+  margin-bottom: 20px;
+}
+
+.movie-card {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 15px;
+  color: #eee;
+  box-shadow: 0 0 10px rgba(0,255,200,0.1);
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.movie-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+form input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ddd;
+}
+.year-range {
+  display: flex;
+  gap: 10px;
+}
+
+.year-range label,
+.year-range input {
+  flex: 1;
+}
+
