@@ -76,8 +76,6 @@ movie-app/
 5. **Open the app**
    Go to [http://localhost:3000](http://localhost:3000) in your browser.
 
-```
-
 ## Learning Goals
 
 This project was created as a practice exercise to:
@@ -101,4 +99,7 @@ This project was created as a practice exercise to:
 
 This project is for **educational purposes only**.
 API usage is powered by [TMDB](https://www.themoviedb.org/).
+
+```
+
 ```
