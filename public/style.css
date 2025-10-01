@@ -35,9 +35,11 @@ header.header {
 .main-content {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  flex-direction: column;   /* stack vertically */
+  justify-content: flex-start;
+  align-items: center;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .form-section {
@@ -46,8 +48,10 @@ header.header {
   border-radius: 10px;
   width: 100%;
   max-width: 500px;
+  margin-bottom: 40px; /* space between form and results */
   box-shadow: 0 0 15px rgba(0,255,200,0.2);
 }
+
 
 .form-section h2 {
   font-size: 1.5rem;

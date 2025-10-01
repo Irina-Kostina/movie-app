@@ -7,15 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header class="header">
     <h1>Find Your Next Favourite Movie</h1>
     <p>Let our AI recommend a perfect movie or show for you based on your taste and mood.</p>
   </header>
 
+  <!-- Main Content -->
   <main class="main-content">
+    <!-- Form Section -->
     <section class="form-section">
       <h2>Tell Us What You Like</h2>
       <form id="preference-form">
+        
+        <!-- Genre -->
         <label for="genre">Favourite Genre:</label>
         <select id="genre" name="genre">
           <option>Action</option>
@@ -26,15 +31,17 @@
           <option>Sci-Fi</option>
         </select>
 
+        <!-- Language -->
         <label for="language">Preferred Language:</label>
         <select id="language" name="language">
-          <option>English</option>
-          <option>Spanish</option>
-          <option>Korean</option>
-          <option>Japanese</option>
-          <option>French</option>
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="ko">Korean</option>
+          <option value="ja">Japanese</option>
+          <option value="fr">French</option>
         </select>
 
+        <!-- Mood -->
         <label for="mood">Current Mood:</label>
         <select id="mood" name="mood">
           <option>Excited</option>
@@ -44,6 +51,7 @@
           <option>Thoughtful</option>
         </select>
 
+        <!-- Year range -->
         <div class="year-range">
           <div>
             <label for="yearFrom">Release Year From:</label>
@@ -55,17 +63,23 @@
           </div>
         </div>
 
-
+        <!-- Submit button -->
         <button type="submit">Get Recommendations</button>
-
       </form>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+      <!-- Movies will be injected here by script.js -->
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <p>&copy; 2025 AI Movie Recommender</p>
   </footer>
-  <script src="script.js"></script>
 
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
