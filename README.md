@@ -9,7 +9,7 @@ The app allows users to select their preferences (genre, language, mood, release
 
 ## Screenshot
 
-![App Screenshot](movie-app.png)
+![App Screenshot](public/movie-app.png)
 
 ---
 
