@@ -99,7 +99,3 @@ This project was created as a practice exercise to:
 
 This project is for **educational purposes only**.
 API usage is powered by [TMDB](https://www.themoviedb.org/).
-
-```
-
-```
