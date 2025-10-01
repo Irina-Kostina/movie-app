@@ -7,6 +7,12 @@ The app allows users to select their preferences (genre, language, mood, release
 
 ---
 
+## Screenshot
+
+![App Screenshot](movie-app.png)
+
+---
+
 ## Features
 
 - Choose a **genre**, **language**, **mood**, and release **year range**.
